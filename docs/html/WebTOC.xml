@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="c2da3d3d-a39b-4a71-9587-e120d634a821" Title="OPC UA Models">
+  <HelpTOCNode Id="155d5dd2-6db4-4cca-a2a7-4f2446ffe0b3" Title="OPC UA Models">
     <HelpTOCNode Title="OPC UA Model" Url="html/OPCUA.htm" />
     <HelpTOCNode Title="ADI Model" Url="html/ADI.htm" />
     <HelpTOCNode Title="AML Model" Url="html/AML.htm" />

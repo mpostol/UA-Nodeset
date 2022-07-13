@@ -1,0 +1,2026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="id1">
+  <developerGlossaryDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+    <glossary>
+      <title>Model documentation</title>
+      <glossaryDiv>
+        <title>Documentation</title>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">LDeviceType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Reference</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>ReferenceType</para>
+                  </entry>
+                  <entry>
+                    <para>TargetId</para>
+                  </entry>
+                  <entry>
+                    <para>IsInverse</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasLN</para>
+                </entry>
+                <entry>
+                  <para>X003C_LNX003E_</para>
+                </entry>
+                <entry>
+                  <para>False</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">ServerType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_LDeviceX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>LDeviceType</para>
+                </entry>
+                <entry>
+                  <para>MandatoryPlaceholder</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">AccessPointType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>Server</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>ServerType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+            <para> - Reference</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>ReferenceType</para>
+                  </entry>
+                  <entry>
+                    <para>TargetId</para>
+                  </entry>
+                  <entry>
+                    <para>IsInverse</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasLN</para>
+                </entry>
+                <entry>
+                  <para>X003C_LNX003E_</para>
+                </entry>
+                <entry>
+                  <para>False</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">IEDType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_AccessPointX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>AccessPointType</para>
+                </entry>
+                <entry>
+                  <para>MandatoryPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>manufacturer</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">GeneralEquipmentKind (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>AXN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>BAT</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>MOT</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FAN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FIL</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>PMP</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>VLV</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">ConductingEquipmentKind (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CBR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>DIS</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>VTR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CTR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>GEN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CAP</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>REA</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CON</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>MOT</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>EFN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>PSH</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>BAT</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>BSH</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CAB</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>GIL</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>LIN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>RRC</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>SAR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>TCF</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>TCR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>IFL</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FAN</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>SCR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>SMC</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">PowerTransformerKind (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>PTR</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">TransformerWindingKind (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>PTW</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">PhaseKind (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>A</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>B</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>C</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>N</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>all</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>none</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>AB</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>BC</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>CA</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">ValueWithUnit (DataType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Fields</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Identifier</para>
+                  </entry>
+                  <entry>
+                    <para>Name</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>Description</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>value</para>
+                </entry>
+                <entry>
+                  <para>Float</para>
+                </entry>
+                <entry />
+              </row>
+              <row>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>unit</para>
+                </entry>
+                <entry>
+                  <para>Unit</para>
+                </entry>
+                <entry />
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">LNodeContainerType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: True</para>
+            <para> - Reference</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>ReferenceType</para>
+                  </entry>
+                  <entry>
+                    <para>TargetId</para>
+                  </entry>
+                  <entry>
+                    <para>IsInverse</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasLNode</para>
+                </entry>
+                <entry>
+                  <para>X003C_LNodeX003E_</para>
+                </entry>
+                <entry>
+                  <para>False</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">GeneralEquipmentType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>GeneralEquipmentKind</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">SubEquipmentType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>phase</para>
+                </entry>
+                <entry>
+                  <para>PhaseKind</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">ConnectivityNodeType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>pathName</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">AbstractConductingEquipmentType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: True</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_SubEquipmentX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>SubEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+            </table>
+            <para> - Reference</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>ReferenceType</para>
+                  </entry>
+                  <entry>
+                    <para>TargetId</para>
+                  </entry>
+                  <entry>
+                    <para>IsInverse</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasTerminal</para>
+                </entry>
+                <entry>
+                  <para>X003C_ConnectivityNodeX003E_</para>
+                </entry>
+                <entry>
+                  <para>False</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">TapChangerType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">TransformerWindingType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>TapChanger</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>TapChangerType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>TransformerWindingKind</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">PowerTransformerType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_TransformerWindingX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>TransformerWindingType</para>
+                </entry>
+                <entry>
+                  <para>MandatoryPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>PowerTransformerKind</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">EquipmentContainerType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: True</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_GeneralEquipmentX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>GeneralEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_PowerTransformerX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>PowerTransformerType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">ConductingEquipmentType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>ConductingEquipmentKind</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">SubFunctionType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_ConductingEquipementX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>ConductingEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_GeneralEquipmentX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>GeneralEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">FunctionType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_ConductingEquipementX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>ConductingEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_GeneralEquipmentX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>GeneralEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_SubFunctionX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>SubFunctionType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>type</para>
+                </entry>
+                <entry>
+                  <para>String</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Optional</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">BayType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_ConductingEquipementX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>ConductingEquipmentType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_ConnectivityNodeX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>ConnectivityNodeType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_FunctionX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FunctionType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">VoltageLevelType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_BayX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>BayType</para>
+                </entry>
+                <entry>
+                  <para>MandatoryPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_FunctionX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FunctionType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasProperty</para>
+                </entry>
+                <entry>
+                  <para>Property</para>
+                </entry>
+                <entry>
+                  <para>voltage</para>
+                </entry>
+                <entry>
+                  <para>ValueWithUnit</para>
+                </entry>
+                <entry>
+                  <para>PropertyType</para>
+                </entry>
+                <entry>
+                  <para>Mandatory</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+        <glossaryEntry>
+          <terms>
+            <term termClass="term">SubstationType (ObjectType)</term>
+          </terms>
+          <definition>
+            <para>IsAbstract: False</para>
+            <para> - Children</para>
+            <table>
+              <tableHeader>
+                <row>
+                  <entry>
+                    <para>Reference</para>
+                  </entry>
+                  <entry>
+                    <para>NodeClass</para>
+                  </entry>
+                  <entry>
+                    <para>SymbolicName</para>
+                  </entry>
+                  <entry>
+                    <para>DataType</para>
+                  </entry>
+                  <entry>
+                    <para>TypeDefinition</para>
+                  </entry>
+                  <entry>
+                    <para>ModellingRule</para>
+                  </entry>
+                </row>
+              </tableHeader>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_VoltageLevelX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>VoltageLevelType</para>
+                </entry>
+                <entry>
+                  <para>MandatoryPlaceholder</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>HasComponent</para>
+                </entry>
+                <entry>
+                  <para>Object</para>
+                </entry>
+                <entry>
+                  <para>X003C_FunctionX003E_</para>
+                </entry>
+                <entry>
+                  <para />
+                </entry>
+                <entry>
+                  <para>FunctionType</para>
+                </entry>
+                <entry>
+                  <para>OptionalPlaceholder</para>
+                </entry>
+              </row>
+            </table>
+          </definition>
+        </glossaryEntry>
+      </glossaryDiv>
+    </glossary>
+  </developerGlossaryDocument>
+</topic>
