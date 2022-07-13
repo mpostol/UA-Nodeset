@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="155d5dd2-6db4-4cca-a2a7-4f2446ffe0b3" Title="OPC UA Models">
+  <HelpTOCNode Id="eda5d2ea-dd28-4555-8034-2c23e398ddf1" Title="OPC UA Models">
     <HelpTOCNode Title="OPC UA Model" Url="html/OPCUA.htm" />
     <HelpTOCNode Title="ADI Model" Url="html/ADI.htm" />
     <HelpTOCNode Title="AML Model" Url="html/AML.htm" />
@@ -18,6 +18,11 @@
     <HelpTOCNode Title="Gds Model" Url="html/Gds.htm" />
     <HelpTOCNode Title="I4AAS Model" Url="html/I4AAS.htm" />
     <HelpTOCNode Title="IA Model" Url="html/IA.htm" />
+    <HelpTOCNode Id="5e9cad7d-afc5-437c-80e5-0c5570b08be4" Title=" IEC61850">
+      <HelpTOCNode Title="IEC61850-7-3 Model" Url="html/IEC61850-7-3.htm" />
+      <HelpTOCNode Title="IEC61850-6 Model" Url="html/IEC61850-6.htm" />
+      <HelpTOCNode Title="IEC61850-7-4 Model" Url="html/IEC61850-7-4.htm" />
+    </HelpTOCNode>
     <HelpTOCNode Title="Ijt.Tightening Model" Url="html/Ijt.Tightening.htm" />
     <HelpTOCNode Title="IRDI Model" Url="html/IRDI.htm" />
     <HelpTOCNode Title="ISA95-JOBCONTROL Model" Url="html/ISA95-JOBCONTROL.htm" />
